@@ -3,13 +3,12 @@ function getDay() {
 	var day = now.getDay();
 
 	if (day === 5) {
-		return 'YES'
+	return 'YES'
 	} else {
-		return 'NO'
+	return 'NO'
 	}
 
 }
-
 var day = getDay()
 
 document.querySelector('h1').innerHTML = day
